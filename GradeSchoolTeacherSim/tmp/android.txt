@@ -1,0 +1,328 @@
+
+Updating source code.
+
+Updating build files.
+Unable to find a $JAVA_HOME at "/usr", continuing with system-provided Java...
+Unable to find a $JAVA_HOME at "/usr", continuing with system-provided Java...
+Unable to find a $JAVA_HOME at "/usr", continuing with system-provided Java...
+Resolved location of library project to: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library
+Updated and renamed default.properties to project.properties
+Updated local.properties
+Added file ./build.xml
+Updated file ./proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+
+
+
+
+Creating assets directory.
+
+Packaging internal data.
+
+I'm using Ant to build the package.
+Unable to find a $JAVA_HOME at "/usr", continuing with system-provided Java...
+Buildfile: /Applications/Ren'Py-6.99.7/rapt/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: GradeSchoolTeacherSim-0.1
+  [gettype] Project Type: Application
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for GradeSchoolTeacherSim-0.1...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /Applications/Ren'Py-6.99.7/rapt/bin/rsObj
+    [mkdir] Created dir: /Applications/Ren'Py-6.99.7/rapt/bin/rsLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for GradeSchoolTeacherSim-0.1...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'release'...
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for library...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] No changes in the AndroidManifest files.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/res
+   [crunch] To destination dir: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: downloader_library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for downloader_library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for downloader_library...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] No changes in the AndroidManifest files.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/res
+   [crunch] To destination dir: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+
+-code-gen:
+[mergemanifest] Found modified input file
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] Found 1 AIDL files.
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found modified input file
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 4 source files to /Applications/Ren'Py-6.99.7/rapt/bin/classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /Applications/Ren'Py-6.99.7/rapt/bin/classes
+      [dex] input: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/classes.jar
+      [dex] input: /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/classes.jar
+      [dex] input: /Applications/Ren'Py-6.99.7/rapt/libs/amazon-iap-2.0.1.jar
+      [dex] Using Pre-Dexed classes-358a1eca671b412ffd9bb1d6a782577b.jar <- /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/classes.jar
+      [dex] Using Pre-Dexed classes-98b17094835a2c590a2b1c0419a1b7fb.jar <- /Applications/Ren'Py-6.99.7/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/classes.jar
+      [dex] Using Pre-Dexed amazon-iap-2.0.1-ade80f6da3ab925bb1dbda651cd43e23.jar <- /Applications/Ren'Py-6.99.7/rapt/libs/amazon-iap-2.0.1.jar
+      [dex] Found modified input file
+      [dex] Converting compiled files and external libraries into /Applications/Ren'Py-6.99.7/rapt/bin/classes.dex...
+       [dx] Unable to find a $JAVA_HOME at "/usr", continuing with system-provided Java...
+       [dx] Merged dex A (68 defs/88.4KiB) with dex B (47 defs/88.1KiB). Result is 115 defs/207.6KiB. Took 0.3s
+       [dx] Merged dex A (115 defs/207.6KiB) with dex B (25 defs/35.5KiB). Result is 140 defs/296.8KiB. Took 0.1s
+       [dx] Merged dex A (140 defs/296.8KiB) with dex B (90 defs/79.8KiB). Result is 230 defs/487.1KiB. Took 0.1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Applications/Ren'Py-6.99.7/rapt/res
+   [crunch] To destination dir: /Applications/Ren'Py-6.99.7/rapt/bin/res
+   [crunch] Processing image to cache: /Applications/Ren'Py-6.99.7/rapt/res/drawable/icon.png => /Applications/Ren'Py-6.99.7/rapt/bin/res/drawable/icon.png
+   [crunch]   (processed image to cache entry /Applications/Ren'Py-6.99.7/rapt/bin/res/drawable/icon.png: 96% size of source)
+   [crunch] Crunched 1 PNG files to update cache
+
+-package-resources:
+     [aapt] Found modified input file
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Found modified input file
+[apkbuilder] Creating GradeSchoolTeacherSim-0.1-release-unsigned.apk for release...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+
+-release-sign:
+     [echo] Signing final apk...
+ [zipalign] Running zip align on final apk...
+     [echo] Release Package: /Applications/Ren'Py-6.99.7/rapt/bin/GradeSchoolTeacherSim-0.1-release.apk
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/bin/build.prop
+[propertyfile] Updating property file: /Applications/Ren'Py-6.99.7/rapt/bin/build.prop
+
+-post-build:
+
+release:
+
+install:
+     [echo] Installing /Applications/Ren'Py-6.99.7/rapt/bin/GradeSchoolTeacherSim-0.1-release.apk onto default emulator or device...
+     [exec] 3138 KB/s (27251547 bytes in 8.479s)
+     [exec] 	pkg: /data/local/tmp/GradeSchoolTeacherSim-0.1-release.apk
+     [exec] Success
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+
+
+
+
+The build seems to have succeeded.

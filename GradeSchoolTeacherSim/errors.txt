@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 293: invalid syntax
+    play music "music/Groddle-Forest-Theme_1291876879.mp3"
+              ^
+    
+
+Ren'Py Version: Ren'Py 6.99.7.858
